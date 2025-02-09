@@ -14,12 +14,15 @@ public class Main {
 		System.out.println(objetoA.toString());
 		System.out.println(objetoB.toString());
 		System.out.println(objetoC.toString());
-
+		
 		ObjectC objetoC2 = new ObjectC(2, "Antonia", "Almeria");
 		System.out.println(objetoC2.toString());
 		
 		ObjectD objetoD = new ObjectD(1,"Mike","Avenida del paseo maritimo 156","Manises");
 		System.out.println(objetoD.toString());
+		
+		ObjectB objetoB2 = new ObjectB(2, "Victor", 24);
+		System.out.println(objetoB2.toString());
 		
 	}
 }
