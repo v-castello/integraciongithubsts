@@ -16,5 +16,8 @@ public class Main {
 		
 		ObjectC objetoC2 = new ObjectC(2, "Antonia", "Almeria");
 		System.out.println(objetoC2.toString());
+		
+		ObjectB objetoB2 = new ObjectB(2, "Victor", 24);
+		System.out.println(objetoB2.toString());
 	}
 }
